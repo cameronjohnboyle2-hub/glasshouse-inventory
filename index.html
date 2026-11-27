@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glasshouse · Plant inventory</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="app">
+<aside>
+<div class="brand"><svg viewBox="0 0 32 36"><path d="M16 33V17M16 24C4 25 2 17 3 10c8 0 14 4 13 14ZM16 18C15 8 21 3 29 3c1 8-3 15-13 15Z"/></svg><div>glasshouse<small>ROOM TO GROW</small></div></div>
+<div><p class="nav-label">WORKSPACE</p><nav aria-label="Main navigation"><button class="nav active" data-view="inventory"></button><button class="nav" data-view="orders"></button><button class="nav" data-view="locations"></button><button class="nav" data-view="activity"></button></nav></div>
+<div class="sidebar-note"><svg viewBox="0 0 32 32"><path d="M16 29V14M16 22C6 23 3 17 4 11c7 0 12 4 12 11Zm0-7C16 7 21 3 28 4c0 7-4 12-12 11Z"/></svg><b>A little order.<br>A lot of growth.</b>Your greenhouse, all in one place.</div>
+<div class="staff"><span class="avatar">GH</span><div><strong>Greenhouse team</strong><small>Staff workspace</small></div></div>
+</aside>
+<main><div class="topbar"><div class="breadcrumb">WORKSPACE <span>/ <span id="crumb">INVENTORY</span></span></div><div class="top-right"><span class="date" id="date"></span><span class="demo">Prototype · this browser only</span></div></div><div class="content" id="content"></div></main>
+</div>
+<dialog id="modal" aria-labelledby="modalTitle"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

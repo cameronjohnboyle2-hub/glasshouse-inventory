@@ -1,0 +1,13 @@
+{
+  "name": "glasshouse-inventory",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Staff greenhouse inventory prototype with planting-week ages and order pick suggestions",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check assets/app.js && node --check assets/core.js"
+  },
+  "engines": { "node": ">=20" }
+}
