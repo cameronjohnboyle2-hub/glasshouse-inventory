@@ -1,5 +1,13 @@
 # Glasshouse
 
+## Open the app
+
+**Live app: https://cameronjohnboyle2-hub.github.io/glasshouse-inventory/**
+
+Hosted on GitHub Pages from the root of the `Website` branch. Changes committed to that branch are published automatically after GitHub finishes deploying. `.nojekyll` keeps the frontend files unchanged during publishing.
+
+This is a public prototype with sample data. Inventory changes are stored separately in each browser; staff do not share inventory across devices yet.
+
 A small staff web app for greenhouse inventory. Track plant batches by bench, record planting weeks, sell or move stock, and get an automatic pick list for incoming orders. Plain HTML, CSS, and JavaScript; no build step or runtime dependencies.
 
 ## Run locally
